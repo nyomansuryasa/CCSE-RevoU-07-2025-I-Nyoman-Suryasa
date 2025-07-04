@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website I Nyoman Suryasa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body class="bg-gradient-to-tr from-green-50 via-blue-50 to-purple-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="flex items-center space-x-3">
+        <img src="img/logo.png" alt="RevoU Logo" class="h-10 w-10 rounded-full">
+        <span class="text-lg font-bold text-gray-700">RevoU</span>
+      </div>
+      <nav class="space-x-4 text-sm font-medium">
+        <a href="#" class="px-4 py-2 rounded hover:bg-blue-100 transition">Home</a>
+        <a href="profile.html" class="px-4 py-2 rounded hover:bg-blue-100 transition">Our Profile</a>
+        <a href="#portfolio" class="px-4 py-2 rounded hover:bg-blue-100 transition">Portofolio</a>
+        <a href="#message" class="px-4 py-2 rounded hover:bg-blue-100 transition">Message Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-left px-6 py-3 bg-gradient-to-br from-blue-100 to-purple-200">
+    <h1 class="text-4xl font-bold mb-4 text-gray-800">Hi , Welcome To Website</h1>
+    <p class="text-base text-gray-600">Ini adalah website latihan pertama</p>
+  </section>
+
+<!-- Portfolio Placeholder -->
+<!-- Portfolio Section -->
+<section id="portfolio" class="border-t border-b bg-white">
+  <!-- Background image header -->
+  <div class="w-full h-64 md:h-96 lg:h-[578px] bg-cover bg-center" style="background-image: url('img/header.jpg');">
+ 
+
+  <!-- Gallery Images -->
+  <div class="mx-auto max-w-screen-xl w-full p-4">
+    <div class="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-3">
+      <img src="img/1.jpg"  alt="Foto 1"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/2.jpg"  alt="Foto 2"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/3.jpg"  alt="Foto 3"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/4.jpg"  alt="Foto 4"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/5.jpg"  alt="Foto 5"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/6.jpg"  alt="Foto 6"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/7.jpg"  alt="Foto 7"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      <img src="img/8.jpg"  alt="Foto 8"  class="w-full mb-3 rounded-lg break-inside-avoid" />
+      </div>
+  </div>
+   </div>
+</section>
+
+
+
+  <!-- Our Headquarter -->
+<!-- Our Headquarter -->
+<section class="py-16 px-6 bg-blue-50">
+  <h2 class="px-24 text-2xl font-bold text-left text-gray-700 mb-10">Our Headquarter</h2>
+  <div class="px-32 flex flex-wrap justify-left gap-10">
+    <!-- Jakarta -->
+    <div class="flex flex-col items-center">
+      <div class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 overflow-hidden rounded-full border-2 border-gray-400">
+        <img src="img/Jakarta.jpg" alt="Jakarta" class="w-full h-full object-cover" />
+      </div>
+      <p class="mt-3 text-sm text-gray-700">Jakarta</p>
+    </div>
+
+    <!-- Bandung -->
+    <div class="flex flex-col items-center">
+      <div class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 overflow-hidden rounded-full border-2 border-gray-400">
+        <img src="img/Bandung.jpg" alt="Bandung" class="w-full h-full object-cover" />
+      </div>
+      <p class="mt-3 text-sm text-gray-700">Bandung</p>
+    </div>
+
+    <!-- Surabaya -->
+    <div class="flex flex-col items-center">
+      <div class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 overflow-hidden rounded-full border-2 border-gray-400">
+        <img src="img/Surabaya.jpg" alt="Surabaya" class="w-full h-full object-cover" />
+      </div>
+      <p class="mt-3 text-sm text-gray-700">Surabaya</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Message Us -->
+<section id="message" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+    <form id="messageForm" class="space-y-4">
+      <h2 class="text-xl font-bold text-gray-800 mb-4 text-left">Message Us</h2>
+
+      <div class="flex items-center gap-4">
+        <div class="w-36 flex justify-between">
+          <span class="text-sm font-medium">Nama</span><span>:</span>
+        </div>
+        <input type="text" id="name" class="flex-1 border px-3 py-2 rounded w-full" placeholder="Nama">
+      </div>
+
+      <div class="flex items-center gap-4">
+        <div class="w-36 flex justify-between">
+          <span class="text-sm font-medium">Tanggal Lahir</span><span>:</span>
+        </div>
+        <input type="date" id="dob" class="flex-1 border px-3 py-2 rounded w-full">
+      </div>
+
+      <div class="flex items-center gap-4">
+        <div class="w-36 flex justify-between">
+          <span class="text-sm font-medium">Jenis Kelamin</span><span>:</span>
+        </div>
+        <div class="flex gap-4">
+          <label class="flex items-center gap-1"><input type="radio" name="gender" value="Laki-Laki"> Laki-Laki</label>
+          <label class="flex items-center gap-1"><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="w-36 flex justify-between">
+          <span class="text-sm font-medium">Pesan</span><span>:</span>
+        </div>
+        <textarea id="message" class="flex-1 border px-3 py-2 rounded h-24 w-full" placeholder="Pesan"></textarea>
+      </div>
+
+      <div class="pl-40">
+        <button type="submit" class="bg-gray-200 px-6 py-2 rounded hover:bg-gray-300 transition">Submit</button>
+      </div>
+    </form>
+
+    <div class="border p-4 rounded-md bg-gray-50 text-sm">
+      <p><strong>Current time :</strong> <span id="currentTime"></span></p>
+      <div id="output" class="mt-4 space-y-2 text-gray-800"></div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-blue-100 border-t text-sm py-4 text-right pr-10 text-gray-600">
+    Created By RevoU
+  </footer>
+</body>
+</html>
